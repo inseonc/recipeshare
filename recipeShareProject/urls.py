@@ -47,6 +47,6 @@ urlpatterns = [
     url(r'^api/profile/$', profile_view),
     url(r'^api/login/$', login_view),
     url(r'^home/(?P<page>\w+).html$', serve_html),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]# + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
