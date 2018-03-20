@@ -15,8 +15,8 @@ from .forms import MessageForm
 from django.core import serializers
 from django.forms.models import model_to_dict
 
-from .serializers import MessageSerializer
-from rest_framework import viewsets
+#from .serializers import MessageSerializer
+#from rest_framework import viewsets
 
 from django.template import RequestContext
 

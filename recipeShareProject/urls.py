@@ -10,8 +10,8 @@ from rest_framework import routers
 from recipeShareApp import views
 
 
-router = routers.DefaultRouter()
-router.register(r'test', views.recipeShareApp_view_Set)
+#router = routers.DefaultRouter()
+#router.register(r'test', views.recipeShareApp_view_Set)
 
 
 admin.autodiscover()

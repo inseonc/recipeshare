@@ -336,14 +336,14 @@ def recipeShareApp_view(request):
 
 def list_class_properties(cls):
     return [k for k,v in cls.__dict__.iteritems() if type(v) is property]
-
+'''
 class recipeShareApp_view_Set(viewsets.ModelViewSet):
     queryset = Message.objects.all()
     serializer_class = MessageSerializer
     #print "queryset: ",  queryset
     #print "serializer_class: ",  serializer_class
     #print "serializer_class_data: ",  serializer_class.data
-    
+'''    
 @need_auth
 def recipeShareApp_view(request):
     #queryset = Message.objects.all()
