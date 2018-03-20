@@ -105,8 +105,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'recipeShareProject.wsgi.application'
-
+#WSGI_APPLICATION = 'recipeShareProject.wsgi.application'
+WSGI_APPLICATION = 'recipeshare.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
